@@ -27,7 +27,7 @@ public class CustomAuthenticationFilter extends UsernamePasswordAuthenticationFi
     private final AuthenticationManager authenticationManager;
     private final UserDAO userDAO;
 
-    /**@author Roy van Delft
+    /**
      * Constructor for the custom authentication filter
      * @param authenticationManager takes the authenticationmanager
      */
